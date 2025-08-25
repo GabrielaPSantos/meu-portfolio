@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+/*Telas pequenas / Mobile */
+@media (max-width: 768px) {
+   .dev {
+    font-size: 2rem;
+    margin-top: 20px;
+    }
+}
