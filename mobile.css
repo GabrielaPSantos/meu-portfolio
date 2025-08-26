@@ -4,7 +4,18 @@
 /*Telas pequenas / Mobile */
 @media (min-width: 285px) and (max-width: 768px) {
 
-   #sobre {
+ 
+    .body {
+        min-width: 285px;
+        max-width: 768;
+    }
+
+    .navegador {
+    position: fixed;
+    top: 0; /*garante ele sempre ficar no topo*/
+   }
+
+   .menu-link {
     color: #f0f0f0;
    }
 
