@@ -4,43 +4,39 @@
 /*Telas pequenas / Mobile */
 @media (max-width: 768px) {
 
-  .menu {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 1rem;
-}
-
- .menu ul {
-    -webkit-overflow-scrolling: touch;
+  body {
+    font-size: 16px;
+    padding: 10px;
   }
 
-  .menu li:active {
-    background-color: #ddd;
+  .navegador {
+    height: auto;
   }
-}
 
-   .cabecalho {
-    height: 768px;
-    padding-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .navegador .menu {
     flex-direction: column;
-    color: var(--cor-titulo);
-}
+    align-items: center;
+    gap: 10px;
+  }
 
-   .dev {
+  .menu-link {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .dev {
         font-size: 2rem;
         margin-top: 20px;
-    }
+  }
 
-    .cumprimento {
+  .cumprimento {
         font-size: 1rem;
         font-weight: normal;
-    }
+  }
 
-    .meu-nome {
+  .meu-nome {
         font-size: 2rem;
         font-weight: normal;
+  }
+
 }
