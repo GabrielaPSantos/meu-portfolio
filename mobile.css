@@ -4,6 +4,25 @@
 /*Telas pequenas / Mobile */
 @media (max-width: 768px) {
 
+
+    .navegador {
+    position: fixed;
+    top: 0; /*garante ele sempre ficar no topo*/
+    background-color: var(--secao-secundaria);
+    width: 473px;
+    z-index: 100; /*garante ele ficar sobreposto aos outros*/
+    padding: 1rem;
+    height: 45px;
+   }
+
+    .menu {
+        display: flex;
+        justify-content: right;
+        list-style: none;
+        gap: 3rem;
+        padding-right: 40px;
+    }
+
    .cabecalho {
     height: 768px;
     padding-top: 40px;
