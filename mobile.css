@@ -4,6 +4,13 @@
 /*Telas pequenas / Mobile */
 @media (max-width: 768px) {
 
+  *{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
   body {
     font-size: 16px;
     padding: 10px;
@@ -17,6 +24,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding-left: 30px;
   }
 
   .menu-link {
@@ -24,19 +32,19 @@
     padding: 8px;
   }
 
-  .dev {
-        font-size: 2rem;
-        margin-top: 20px;
-  }
-
   .cumprimento {
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: normal;
   }
 
   .meu-nome {
         font-size: 2rem;
         font-weight: normal;
+  }
+
+   .dev {
+        font-size: 2rem;
+        margin-top: 20px;
   }
 
 }
