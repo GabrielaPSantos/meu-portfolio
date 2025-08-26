@@ -11,6 +11,10 @@
     padding-left: 10px;
   }
 
+  .menu-link::after {
+    content: none;
+  }
+
   .navegador {
     position: absolute;
   }
@@ -23,7 +27,6 @@
   .meu-nome {
     font-size: 1.2rem;
   }
-
   
   .dev {
     font-size: 1.4rem;
@@ -33,6 +36,11 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+  }
+
+  .icons img {
+  width: 19px;
+  height: 19px;
   }
 
   .sobre {
@@ -48,11 +56,15 @@
 
   .foto-perfil {
     width: 100px;
-    height: 100px;
+    height: 120px;
   }
 
   .sobre-textos h1 {
     font-size: 1.5rem;
+  }
+
+  .projetos-titulo {
+    margin-bottom: 80px;
   }
 
   .projetos-caixa {
@@ -62,18 +74,29 @@
   .projetos-card {
     flex-direction: column;
     min-height: auto;
+    backdrop-filter: none;
+    cursor: default;
+  }
+
+  .projetos-card:hover {
+    transform: none;
+    box-shadow: none;
   }
 
   .projetos-imagem {
     width: 100%;
-    height: auto;
+    height: 250px;
+    object-fit: cover;
+    object-position: top center;
   }
 
   .links-container {
-    flex-direction: column;
-    gap: 20px;
-    padding-left: 0;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px ;
+    margin-top: 25px;
+    padding-right: 30px;
   }
 
   .container-skills {
@@ -81,19 +104,30 @@
   }
 
   .skills-titulo {
-    font-size: 1.4rem;
-    margin: 40px 0 20px;
+    font-size: 1.5rem;
+    margin-bottom: 85px;
+  }
+
+  .logos,
+  .logos-soft {
+    display: flex;
+    flex-direction: column;
   }
 
   .logo-item,
   .logo-items {
     width: 100px;
+    margin-bottom: 28px;
   }
 
-  .logo-item img,
-  .logo-items img {
-    width: 60px;
+  .logo-item img {
+    width: 130px;
     height: auto;
+  }
+
+  .logo-items img {
+    width: 270px;
+    height: 185px;
   }
 
   .logo-items p,
@@ -122,10 +156,9 @@
   }
 
   .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 22px;
   }
 
   .footer-info h1 {
@@ -137,9 +170,14 @@
   }
 
   .footer-links img {
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
   }
+
+  .footer-links a {
+    padding: 12px;
+  }
+
 }
 
 
