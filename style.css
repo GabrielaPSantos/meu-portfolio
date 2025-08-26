@@ -545,7 +545,7 @@ button:hover {
     flex-direction: row;
     justify-items: center;
     gap: 1rem;
-    padding-right: 90px;
+    padding-left: 10px;
   }
 
   .navegador {
