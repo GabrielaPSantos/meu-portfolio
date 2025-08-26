@@ -17,7 +17,7 @@
   }
 
   .navegador {
-    height: auto;
+    height: 10rem;
   }
 
   .navegador .menu {
@@ -25,7 +25,6 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding-left: 30px;
   }
 
   .menu-link {
