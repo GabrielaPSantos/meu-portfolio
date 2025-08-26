@@ -3,8 +3,29 @@
 
 /*Telas pequenas / Mobile */
 @media (max-width: 768px) {
+
+   .cabecalho {
+    height: 768px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--cor-titulo);
+}
+
    .dev {
-    font-size: 2rem;
-    margin-top: 20px;
+        font-size: 2rem;
+        margin-top: 20px;
     }
+
+    .cumprimento {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    .meu-nome {
+        font-size: 2rem;
+        font-weight: normal;
+}
 }
