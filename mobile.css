@@ -18,6 +18,7 @@
 
   .navegador {
     height: 10rem;
+    position: absolute;
   }
 
   .navegador .menu {
