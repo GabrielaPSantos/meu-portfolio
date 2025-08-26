@@ -2,28 +2,23 @@
 
 
 /*Telas pequenas / Mobile */
-@media (min-width: 285px) and (max-width: 768px) {
+@media (max-width: 768px) {
 
- 
+  .menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+}
 
-    .navegador {
-    position: fixed;
-    top: 0; /*garante ele sempre ficar no topo*/
-    min-width: 285px;
-    max-width: 768px;
-   }
+ .menu ul {
+    -webkit-overflow-scrolling: touch;
+  }
 
-   .menu-link {
-    color: #f0f0f0;
-   }
-
-    .menu {
-        display: flex;
-        justify-content: right;
-        list-style: none;
-        gap: 3rem;
-        padding-right: 40px;
-    }
+  .menu li:active {
+    background-color: #ddd;
+  }
+}
 
    .cabecalho {
     height: 768px;
@@ -48,5 +43,4 @@
     .meu-nome {
         font-size: 2rem;
         font-weight: normal;
-}
 }
