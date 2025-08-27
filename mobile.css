@@ -8,7 +8,7 @@
     flex-direction: row;
     justify-items: center;
     gap: 1rem;
-    padding-left: 20px;
+    padding-left: 300px;
   }
 
   .menu-link::after {
@@ -81,6 +81,7 @@
   .projetos-card:hover {
     transform: none;
     box-shadow: none;
+    border-radius: 13px;
   }
 
   .projetos-imagem {
@@ -175,7 +176,7 @@
   }
 
   .footer-links a {
-    padding: 12px;
+    padding: 10px;
   }
 
 }

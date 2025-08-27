@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*Estilo para Telas Grandes*/
 *{
     margin: 0;
     padding: 0; 
@@ -41,7 +42,7 @@ body {
     justify-content: right;
     list-style: none;
     gap: 3rem;
-    padding-right: 40px;
+    padding-right: 30px;
 }
 
 .menu-link {
@@ -78,17 +79,18 @@ body {
 }
 
 .cumprimento {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: normal;
+    line-height: 1.8em;
 }
 
 .meu-nome {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: normal;
 }
 
 .dev {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 20px;
 }
 
@@ -100,8 +102,8 @@ body {
 }
 
 .icons img {
-  width: 24px;
-  height: 24px;
+  width: 23px;
+  height: 23px;
   background-color: #ab91c93a;
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.205);
@@ -162,7 +164,7 @@ body {
 }
 
 .sobre-textos h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 10px;
   color: var(--cor-titulo);
 }
@@ -284,9 +286,7 @@ u {
 }
 
 .links:hover {
-    background-color: #85018549;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
+    background-color: #24042449;
 }
 
 .links-container {
@@ -510,7 +510,8 @@ button:hover {
   justify-content: left;
   align-items: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 25px;
+
 }
 
 .footer-info {

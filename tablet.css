@@ -1,0 +1,214 @@
+
+/*Telas de Tablet*/
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .menu {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+
+  .menu-link {
+    font-size: 13px;
+  }
+
+  .menu-link::after {
+    content: none;
+  }
+
+  .navegador {
+    position: absolute;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .cabecalho {
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .cumprimento,
+  .meu-nome {
+    font-size: 1.5rem;
+  }
+
+  .dev {
+    font-size: 1.8rem;
+  }
+
+  .icons {
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+  }
+
+  .icons img {
+    width: 21px;
+    height: 21px;
+  }
+
+  .sobre {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .sobre-titulo {
+    text-align: center;
+    margin-bottom: 0;
+    padding-right: 0;
+  }
+
+  .foto-perfil {
+    width: 140px;
+    height: 160px;
+  }
+
+  .sobre-textos h1 {
+    font-size: 1.5rem;
+  }
+
+  .sobre-sub-titulo {
+    font-size: 1.1rem;
+  }
+
+  .projetos-titulo {
+    font-size: 1.6rem;
+    margin-bottom: 75px;
+  }
+
+  .projetos-caixa {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .projetos-card {
+    flex-direction: column;
+    min-height: auto;
+    backdrop-filter: none;
+    cursor: default;
+  }
+
+  .projetos-card:hover {
+    transform: none;
+    box-shadow: none;
+    border-radius: 13px;
+  }
+
+  .projetos-imagem {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  .login-img {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 300px;
+  height: auto;
+}
+
+
+  .links-container {
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  .container-skills {
+    padding: 2rem;
+  }
+
+  .skills-titulo {
+    font-size: 1.6rem;
+    margin-bottom: 75px;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+  } 
+
+  .logo-item img {
+    width: 100px;
+    height: auto;
+  }
+
+  .logos-soft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 1rem;
+  }
+
+  .logo-items {
+    width: 45%; /* duas colunas lado a lado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+  }
+
+  .logo-items img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+
+  }
+
+  .logo-items p,
+  .logo-item p {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  .contato-container {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 1rem;
+  }
+
+  .footer-info h1 {
+    font-size: 1rem;
+  }
+
+  .sobre-titulo-footer {
+    font-size: 0.8rem;
+  }
+
+  .footer-links img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-links a {
+    padding: 8px;
+  }
+}
