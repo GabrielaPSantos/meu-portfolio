@@ -16,7 +16,7 @@ document.getElementById('form-contato').addEventListener('submit', function(e) {
     const email = document.getElementById('email').value
     const comentario = document.getElementById('comentario').value
 
-    const destinatario = "sgabi4813@gmail.com"
+    const destinatario = "gabrielaperessantos1@gmail.com"
     const assunto = 'Sobre seu Potfólio'
     const corpo = `Olá me chamo ${nome}, ${comentario}`
 
